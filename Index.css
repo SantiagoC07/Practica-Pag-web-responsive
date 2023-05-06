@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+
+
+Body{
+
+margin:0;
+
+}
+
+header{
+    display:flex;
+    min-height: 70px;
+    background-color: rgb(41, 158, 158);
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px;
+
+}
+
+
+.Logotipo{
+
+    display:flex;
+    align-items: center;
+    
+}
+
+
+.LogoLink{
+
+text-decoration: none;
+color:black
+
+}
+
+.Link-Menu{
+
+color:black;
+font-weight: 600;
+text-decoration: none;
+padding-right: 40px;
+}
+
+.Link-Menu:Hover{
+
+color:azure;
+
+
+
+}
+
+.Logo-img{
+
+    height: 50px;
+    
+    
+}
+
+
+
+.Cuerpo {
+
+background-color: yellow;
+height: 50vh;
+margin:5%;
+border-radius: 10pxs;
+
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+@media (max-width:700px){
+    header{
+         flex-direction:column;
+    }
+    nav{
+
+        padding: 10px 0px;
+        align-items: center;
+    }
+}
+
